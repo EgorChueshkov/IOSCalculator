@@ -38,4 +38,14 @@ enum Buttons: String {
             return Color.darkGrayCulc
         }
     }
+    
+    var buttonFontColor: Color {
+        switch self {
+        case .clear, .negative, .percent:
+            return Color.black
+        default:
+            return Color.white
+        }
+    }
+    
 }
