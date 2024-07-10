@@ -63,7 +63,7 @@
 			children = (
 				00E0DE912C3DAA51007BD81A /* IOSCalculatorApp.swift */,
 				00E0DEA32C3DAD37007BD81A /* Views */,
-				00E0DEA42C3DAD47007BD81A /* ViewGroup */,
+				00E0DEA42C3DAD47007BD81A /* ViewModel */,
 				00E0DEA52C3DAD66007BD81A /* Model */,
 				00E0DEAA2C3DC390007BD81A /* Extension */,
 				00E0DE952C3DAA52007BD81A /* Assets.xcassets */,
@@ -88,11 +88,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		00E0DEA42C3DAD47007BD81A /* ViewGroup */ = {
+		00E0DEA42C3DAD47007BD81A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewGroup;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		00E0DEA52C3DAD66007BD81A /* Model */ = {
