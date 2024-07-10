@@ -68,20 +68,8 @@ struct MainView: View {
     // MARK: Tap Button Method
     func didTap(item: Buttons) {
         switch item {
-        case .plus:
-            currentOperation = .addition
-            number = Double(value) ?? 0
-            value = "0"
-        case .minus:
-            currentOperation = .subtract
-            number = Double(value) ?? 0
-            value = "0"
-        case .multiple:
-            currentOperation = .multiply
-            number = Double(value) ?? 0
-            value = "0"
-        case .divide:
-            currentOperation = .divide
+        case .plus, .minus, .multiple, .divide:
+            currentOperation = item.buttonToOperation()
             number = Double(value) ?? 0
             value = "0"
         case .equal:
